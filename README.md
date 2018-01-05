@@ -22,7 +22,7 @@ This Dockerfile takes the pwpon500/alpine-libvirt image and adds terraform to it
 
 This Dockerfile takes a basic Debian Stretch Docker image and configures it so it can use systemd. This can be useful for running daemons that cannot function without systemd.
 
-## debian-kvm
+## debian-libvirt
 
 This Dockerfile takes the pwpon500/debian-systemd image and installs the base packages needed for libvirt to run.
 
